@@ -7,7 +7,8 @@
     "gender": 0,
     "bloodType": "AB",
     "email": "johndoe123@gmail.com",
-    "treatment": "Diabetes"
+    "diagnosis": "Diabetes",
+    "identification_no": "ABC21231"
   },
   {
     "name": "Jane Smith",
@@ -17,7 +18,8 @@
     "gender": 1,
     "bloodType": "O",
     "email": "janesmith92@mail.com",
-    "treatment": "Hypertension"
+    "diagnosis": "Hypertension",
+    "identification_no": "ABC21231"
   },
   {
     "name": "Samuel Brown",
@@ -27,7 +29,8 @@
     "gender": 0,
     "bloodType": "B",
     "email": "samuel.brown75@mail.com",
-    "treatment": "Asthma"
+    "diagnosis": "Asthma",
+    "identification_no": "ABC21231"
   },
   {
     "name": "Emma Wilson",
@@ -37,7 +40,8 @@
     "gender": 1,
     "bloodType": "A",
     "email": "emma.wilson85@mail.com",
-    "treatment": "Allergy"
+    "diagnosis": "Allergy",
+    "identification_no": "ABC21231"
   },
   {
     "name": "Michael Johnson",
@@ -47,7 +51,8 @@
     "gender": 0,
     "bloodType": "AB",
     "email": "m.johnson90@mail.com",
-    "treatment": "Chronic Pain"
+    "diagnosis": "Chronic Pain",
+    "identification_no": "ABC21231"
   },
   {
     "name": "Olivia Taylor",
@@ -57,7 +62,8 @@
     "gender": 1,
     "bloodType": "O",
     "email": "olivia.taylor78@mail.com",
-    "treatment": "Heart Disease"
+    "diagnosis": "Heart Disease",
+    "identification_no": "ABC21231"
   },
   {
     "name": "William Davis",
@@ -67,7 +73,8 @@
     "gender": 0,
     "bloodType": "B",
     "email": "will.davis83@mail.com",
-    "treatment": "Diabetes"
+    "diagnosis": "Diabetes",
+    "identification_no": "ABC21231"
   },
   {
     "name": "Sophia Martinez",
@@ -77,7 +84,8 @@
     "gender": 1,
     "bloodType": "A",
     "email": "sophia.martinez95@mail.com",
-    "treatment": "Migraine"
+    "diagnosis": "Migraine",
+    "identification_no": "ABC21231"
   },
   {
     "name": "James Anderson",
@@ -87,7 +95,8 @@
     "gender": 0,
     "bloodType": "AB",
     "email": "james.anderson87@mail.com",
-    "treatment": "Asthma"
+    "diagnosis": "Asthma",
+    "identification_no": "ABC21231"
   },
   {
     "name": "Isabella Thomas",
@@ -97,6 +106,7 @@
     "gender": 1,
     "bloodType": "O",
     "email": "isabella.thomas81@mail.com",
-    "treatment": "Hypertension"
+    "diagnosis": "Hypertension",
+    "identification_no": "ABC21231"
   }
 ]

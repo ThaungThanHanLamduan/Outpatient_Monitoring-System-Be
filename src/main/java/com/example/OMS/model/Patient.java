@@ -1,9 +1,6 @@
 package com.example.OMS.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 
 import java.time.LocalDate;
@@ -14,14 +11,24 @@ public class Patient {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "name")
     private String name;
+    @Column(name = "dateOfBirth")
     private LocalDate dateOfBirth;
+    @Column(name = "contactNo")
     private String contactNo;
+    @Column(name = "address")
     private String address;
+    @Column(name = "gender")
     private Integer gender;
+    @Column(name = "bloodType")
     private String bloodType;
+    @Column(name = "email")
     private String email;
-    private String treatment;
+    @Column(name = "diagnosis")
+    private String diagnosis;
+    @Column(name = "identification_no")
+    private String identification_no;
 
     public Long getId() {
         return id;
@@ -87,11 +94,19 @@ public class Patient {
         this.email = email;
     }
 
-    public String getTreatment() {
-        return treatment;
+    public String getDiagnosis() {
+        return diagnosis;
     }
 
-    public void setTreatment(String treatment) {
-        this.treatment = treatment;
+    public void setDiagnosis(String diagnosis) {
+        this.diagnosis = diagnosis;
+    }
+
+    public String getIdentification_no() {
+        return identification_no;
+    }
+
+    public void setIdentification_no(String identification_no) {
+        this.identification_no = identification_no;
     }
 }
