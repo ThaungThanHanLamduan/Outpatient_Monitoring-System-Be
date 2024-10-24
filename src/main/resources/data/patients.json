@@ -8,7 +8,8 @@
     "bloodType": "AB",
     "email": "johndoe123@gmail.com",
     "diagnosis": "Diabetes",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "Jane Smith",
@@ -19,7 +20,8 @@
     "bloodType": "O",
     "email": "janesmith92@mail.com",
     "diagnosis": "Hypertension",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "Samuel Brown",
@@ -30,7 +32,8 @@
     "bloodType": "B",
     "email": "samuel.brown75@mail.com",
     "diagnosis": "Asthma",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "Emma Wilson",
@@ -41,7 +44,8 @@
     "bloodType": "A",
     "email": "emma.wilson85@mail.com",
     "diagnosis": "Allergy",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "Michael Johnson",
@@ -52,7 +56,8 @@
     "bloodType": "AB",
     "email": "m.johnson90@mail.com",
     "diagnosis": "Chronic Pain",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "Olivia Taylor",
@@ -63,7 +68,8 @@
     "bloodType": "O",
     "email": "olivia.taylor78@mail.com",
     "diagnosis": "Heart Disease",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "William Davis",
@@ -74,7 +80,8 @@
     "bloodType": "B",
     "email": "will.davis83@mail.com",
     "diagnosis": "Diabetes",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "Sophia Martinez",
@@ -85,7 +92,8 @@
     "bloodType": "A",
     "email": "sophia.martinez95@mail.com",
     "diagnosis": "Migraine",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "James Anderson",
@@ -96,7 +104,8 @@
     "bloodType": "AB",
     "email": "james.anderson87@mail.com",
     "diagnosis": "Asthma",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   },
   {
     "name": "Isabella Thomas",
@@ -107,6 +116,7 @@
     "bloodType": "O",
     "email": "isabella.thomas81@mail.com",
     "diagnosis": "Hypertension",
-    "identification_no": "ABC21231"
+    "identification_no": "ABC21231",
+    "nationality": "Thai"
   }
 ]

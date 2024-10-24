@@ -1,9 +1,11 @@
 package com.example.OMS.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 public class Patient {
@@ -11,24 +13,30 @@ public class Patient {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
+    @Column(name = "name", nullable = false)
     private String name;
-    @Column(name = "dateOfBirth")
+    @Column(name = "dateOfBirth", nullable = false)
     private LocalDate dateOfBirth;
-    @Column(name = "contactNo")
+    @Column(name = "contactNo", nullable = false)
     private String contactNo;
-    @Column(name = "address")
+    @Column(name = "address", nullable = false)
     private String address;
-    @Column(name = "gender")
+    @Column(name = "gender", nullable = false)
     private Integer gender;
-    @Column(name = "bloodType")
+    @Column(name = "bloodType", nullable = false)
     private String bloodType;
-    @Column(name = "email")
+    @Column(name = "email", nullable = false)
     private String email;
-    @Column(name = "diagnosis")
+    @Column(name = "diagnosis", nullable = false)
     private String diagnosis;
-    @Column(name = "identification_no")
+    @Column(name = "identification_no", nullable = false)
     private String identification_no;
+    @Column(name = "nationality", nullable = false)
+    private String nationality;
+
+    @OneToMany(mappedBy = "patient", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
+    private List<MedicalTreatment> medicalTreatments;
 
     public Long getId() {
         return id;
@@ -108,5 +116,17 @@ public class Patient {
 
     public void setIdentification_no(String identification_no) {
         this.identification_no = identification_no;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+
+    public List<MedicalTreatment> getMedicalTreatments() {
+        return medicalTreatments;
     }
 }
